@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+figure.Sirv,
+iframe {
+  width: 100vw;
+  height: 100vh;
+}
+
+.link {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 15px;
+  width: 200px;
+  height: 200px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-image: url('/assets/img/artist-room.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
